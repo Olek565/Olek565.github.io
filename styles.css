@@ -2,11 +2,37 @@ body {
     background-color: #000;
 }
 
+
+
 .content {
     background-color: #323232;
     color: #ffffff;
-    width: 500px;
-    margin: auto;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 25px 50px;
     border: thin solid black;
+    font-family: "Times New Roman", Times, serif;
+    
+    display: flexbox;
+    flex-direction: column;
+
+}   
+
+.title {
+    text-align:center;
+   
+    font-size:26px; letter-spacing:1px;
+
+}
+
+.title h1:after,.title h1:before {
+    
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #ccc;
+    background-color:#f8f8f8;
+}
+
+.body {
+    font-size: 13px;
 }
