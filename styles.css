@@ -23,6 +23,10 @@ body {
 
 }   
 
+.content h2 {
+    margin-top: 50px;
+}
+
 .title {
     text-align:center;
 
