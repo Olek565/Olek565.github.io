@@ -2,6 +2,11 @@ body {
     background-color: #000;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
 
 
 .content {
@@ -35,4 +40,47 @@ body {
 
 .body {
     font-size: 13px;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.employee-card {
+    background-color: #323232;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.employee-card h3 {
+    margin: 10px 0;
+}
+
+.employee-card p {
+    color: #ffffff;
+}
+
+.competition img {
+    /*max-width: 80%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flexbox;
+    flex-direction: column;
+     
+}
+
+.link {
+    color: #ffffff;
 }
