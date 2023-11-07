@@ -12,7 +12,7 @@
             <h1>WiSenser </h1>
         </div>
         <div class="body">
-           
+            <!--Milestone 1 - Deadline 1 Nov 2023 10 AM-->
             <h2>Our Team </h2>
             <div class="employee-grid">
                 <div class="employee-card">
@@ -68,7 +68,7 @@
                     <h3><span class="tab"></span>Senstar</h3>
                     <ul>
                         <li> 
-                            <label>Link: </label><a class="link" href="https://senstar.com/products/video-analytics/crowd-detection/" target="_blank">Senstar crowd detection</a>
+                            <label>Link: </label><a href="https://senstar.com/products/video-analytics/crowd-detection/" target="_blank">Senstar crowd detection</a>
                         </li>
                         <li>They are using machine learning to detect people in surveillance cameras.</li>
                         <li>This might have similar results to our product but it is far more expensive and complex</li>
@@ -172,6 +172,35 @@
             <ul>
                 <li>Provide APIs and integration services for clients to incorporate crowd monitoring data into their existing systems and applications</li>
             </ul>
+
+
+            <!--Milestone 2 - Deadline 8 Nov 2023 10 AM-->
+            <h1>Customer Discovery</h1>
+            <div class="CustomDiscovery">
+                <h2>How we identified the problem?</h2>
+                <p><span class="tab"></span>Identifying the problem of effectively tracking people at a specific location, such as in events, public spaces, and venues was a crucial thing when developing our product.</p>
+                <p><span class="tab"></span>First of all, we thought about it based on our personal experience. This could be: noticing long queues at stores, overcrowded events, or difficulty in buying food/drinks at a festival with a large venue.</p>
+                <p><span class="tab"></span>Secondly, we often used to hear complaints among our friends/family/news after attending such events/festivals. These complaints are often related to: long waiting times, overcrowding, or inaccessible stores/courts at a festival.</p>
+                <p><span class="tab"></span>Last but not least, we investigated the existing crowd management solutions in the previous milestone and realized there are very few competitors, and the focus on this problem is still in the incipient phase.</p>
+                <h2>What we thought is a solution for the problem?</h2>
+                <p><span class="tab"></span>Our solution is a crowd monitoring system that relies solely on Wi-Fi signals to keep track of the people at a certain geographic location.</p>
+                <p><span class="tab"></span>Research has shown that the Wi-Fi technology can be used to track pedestrians because smartphones periodically broadcast Wi-Fi signals in the near zone in order to detect new routers to which they could connect.</p>
+                <p><span class="tab"></span>These signals are called probe requests and contain valuable information such as the sender MAC address which can act as a main identifier for us. These addresses are randomized and this makes the work a lot more difficult, but here will come in place our product which will estimate through ML algorithms and more the number of devices detected.</p>
+                <p><span class="tab"></span>In the end, the customer will have access to an interface with the number of detections for every interval of the day (the interval will generally be 5 minutes or as much as the customer wishes). The data will come from sensors (Raspberry Pis) that are deployed by us at the required location.</p>
+                <h2>Our plan for customer discovery</h2>
+                <p><span class="tab"></span>Our plan is to conduct an online survey with people from different businesses (mall employee, restaurant manager, festival volunteer) and understand how our product can help them, based on their responses and honest opinion.</p>
+                <h2>The process described in detail</h2>
+                <p><span class="tab"></span>We created an online form, which can be found <a href="https://forms.gle/iU9pzYfGscGsM7pv9" target="_blank">here</a>. This form was sent to known people (friends, colleagues) who work for companies that could benefit from our product.</p>
+                <p><span class="tab"></span>One of the people that answered our form is Corina Vlascianu, who is a manager at a clothing store (Bershka) in Mall Parklake.</p>
+                <p><span class="tab"></span>One answer that we want to highlight is regarding how she would plan to integrate our product in her store:<br><span class="tab"></span>
+                    <em>“I see great potential in using your product to enhance the shopping experience for our customers. Some ideas could be: allocating the staff more efficiently (during busy hours/days vs more quiet days). Or for when we host special sales, we can use your system to predict and plan for increased foot traffic. This will help us arrange promotions  and allocate the staff well in advance, ensuring that we make the most of these opportunities.”</em>.<br><span class="tab"></span>
+                    Also she estimated that the size of the crowd she intends to monitor with our product will be under 100 people.</p>
+                <p><span class="tab"></span>Another interesting answer was from Maria Tristiu, who was a volunteer at the “George Enescu” festival:<br><span class="tab"></span>
+                    <em>“One of our biggest issues during the festival was to identify bottlenecks, congestion points, or areas with excessive queuing. Having a product that will help us get this kind of internformation in real time would be really nice.”</em></p>
+                <p><span class="tab"></span></p>
+                <p><span class="tab"></span></p>
+            </div>
+
         </div>  
     </div>
 </body>
