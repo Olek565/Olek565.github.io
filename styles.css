@@ -166,3 +166,13 @@ a {
     font-size: 15px;
 }
   
+.milestone3 img {
+    /*max-width: 80%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flexbox;
+    flex-direction: column;
+     
+}
