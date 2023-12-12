@@ -255,3 +255,39 @@ a {
     flex-direction: column;
      
 }
+
+.hotjar img {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.google-analytics img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.online-survey img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.linkedin-outreach img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+}
