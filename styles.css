@@ -291,3 +291,13 @@ a {
     display: flexbox;
     flex-direction: column;
 }
+
+
+.milestone7-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+}
